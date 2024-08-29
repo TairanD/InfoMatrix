@@ -1,0 +1,93 @@
+/* Side nav */
+.staff-nav {
+  background-color: #4c1864;
+  color: #ffffff;
+  height: 100%;
+  padding: 10px;
+  position: fixed;
+}
+
+.fixed-nav{
+  height: 100%;
+  position: fixed;
+}
+
+.staff-nav-header {
+  color: #f7b205;
+}
+
+.staff-nav-button {
+  /*background-color: #f7b205;*/
+  border-color: #f7b205;
+  margin: 0.5rem; /* Adjusted to use rem for consistency */
+}
+
+.staff-nav-button:hover {
+  background-color: #9f5eb8;
+  color: white;
+}
+
+/* Top bar */
+.staff-top-bar {
+  position: fixed;
+  width: 84%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px 30px;
+  background-image: url('../images/background/bg3.jpg');
+  border-bottom: 1px solid #ccc;
+  z-index: 2;
+}
+
+.staff-top-bar input {
+  flex-grow: 1;
+  margin-right: 10px;
+  /*padding: 8px;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.staff-top-bar button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.staff-top-bar button:hover {
+  background-color: #0056b3;
+}
+
+.listImg{
+    height: 40px;
+    width: auto;
+}
+
+.editQuestionImg{
+  height: 200px;
+  width: auto;
+}
+
+@keyframes dots {
+  0%, 20% {
+      content: ''; /* No dots */
+  }
+  25%, 45% {
+      content: '.'; /* One dot */
+  }
+  50%, 70% {
+      content: '..'; /* Two dots */
+  }
+  75%, 95% {
+      content: '...'; /* Three dots */
+  }
+}
+
+#toBeDeveloped span {
+  display: inline-block;
+  vertical-align: bottom;
+  animation: dots 2s infinite; /* Adjust timing to control speed */
+}

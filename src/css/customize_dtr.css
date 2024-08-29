@@ -1,0 +1,76 @@
+.img-box {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.img-box .small-img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.img-box .full-img {
+  width: 100%;
+}
+
+.uploadBtn {
+  padding: 5px;
+}
+
+.uploadBtn:hover,
+.uploadBtn:focus,
+.uploadBtn:active {
+  background-color: #ff7800;
+  border-color: #6ab33e;
+  color: #fff;
+}
+
+.uploadBtn {
+  background-color: #4c1864;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.like-box{
+  padding: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  animation: blink 3s infinite;
+}
+
+.like-number{
+  animation: blink 3s infinite;
+}
+
+.like-icon-negative{
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.like-icon-active{
+  margin-right: 5px;
+  cursor: pointer;
+  color: red;
+  font-variation-settings: 'FILL' 1;
+}
+
+@keyframes blink {
+  0% {
+    font-variation-settings: 'wght' 200;
+  }
+  50% {
+    font-variation-settings: 'wght' 600;
+  }
+  100% {
+    font-variation-settings: 'wght' 200;
+  }
+}

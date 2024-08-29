@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Implement this function, return the sum of parameter a,b,and c.",
+    "difficulty": "Easy",
+    "example": "def my_function(a, b, c):\n\t# Write Your Own Content\n\treturn None",
+    "id": 1,
+    "name": "Addition Quiz",
+    "return_type": "Int",
+    "tag": "Basic Practice",
+    "type_parameters": "Int,Int,Int"
+  },
+  {
+    "content": "Implement this function, return the multiple result of parameter a,b,and c.",
+    "difficulty": "Easy",
+    "example": "def my_function(a, b, c):\n\t# Write Your Own Content\n\treturn None",
+    "id": 2,
+    "name": "Multiple Quiz",
+    "return_type": "Int",
+    "tag": "Basic Practice",
+    "type_parameters": "Int,Int,Int"
+  },
+  {
+    "content": "Implement this function, return sorted input of list parameter a in acsending order",
+    "difficulty": "Medium",
+    "example": "def my_function(a):\n\t# Write Your Own Content\n\treturn None",
+    "id": 3,
+    "name": "Sort Quiz (Ascending Order)",
+    "return_type": "List",
+    "tag": "Sort Practice",
+    "type_parameters": "List"
+  },
+  {
+    "content": "Implement this function, return sorted input of list parameter a in decending order",
+    "difficulty": "Medium",
+    "example": "def my_function(a):\n\t# Write Your Own Content\n\treturn None",
+    "id": 4,
+    "name": "Sort Quiz (Descending Order)",
+    "return_type": "List",
+    "tag": "Sort Practice",
+    "type_parameters": "List"
+  }
+]
